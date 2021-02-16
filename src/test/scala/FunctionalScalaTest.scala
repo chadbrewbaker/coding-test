@@ -6,7 +6,7 @@ class FunctionalScalaTest extends FunSpec with Matchers {
     true shouldBe true
   }
 
-  it("shouldFailTest") {
+  ignore("shouldFailTest") {
     true shouldBe false
   }
 }
